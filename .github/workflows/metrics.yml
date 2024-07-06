@@ -15,6 +15,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community
+          base_indepth: true
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
